@@ -1,4 +1,4 @@
-import random
+import rando
 
 # assign the king any value which means you can't really lose
 # your king as it would be a checkmate before that happened
