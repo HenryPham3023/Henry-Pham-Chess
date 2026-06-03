@@ -1,5 +1,5 @@
 """
-This is our maon driver. It will be responsible for handling user input
+This is our maon driver. It will be responsible for handling user inpu
 and displaying the current GameState object.
 """
 import sys
