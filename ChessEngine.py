@@ -592,4 +592,4 @@ class Move:
         moveString = self.pieceMoved[1]
         if self.isCapture:
             moveString += "x"
-        return moveString + endSquare
+        return moveString + endSquar
