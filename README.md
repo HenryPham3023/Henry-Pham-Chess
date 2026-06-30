@@ -126,5 +126,5 @@ Created by Henry for the Year 12 Software Engineering Major Project.
 GitHub Repository:
 
 ```text
-PASTE YOUR GITHUB LINK HERE
+(https://github.com/HenryPham3023/Henry-Pham-Chess)
 ```
