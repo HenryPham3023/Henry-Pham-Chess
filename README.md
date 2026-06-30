@@ -1,4 +1,4 @@
-# Henry Pham's SupremeChess Engine
+# Henry Pham's Chess Engine
 
 
 [Eddie's YouTube channel](https://www.youtube.com/channel/UCaEohRz5bPHywGBwmR18Qww)
