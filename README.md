@@ -120,5 +120,5 @@ Created by Henry Pham for the Year 12 Software Engineering Major Project.
 GitHub Repository:
 
 ```text
-https://github.com/HenryPham3023/Henry-Pham-Chess
+(https://github.com/HenryPham3023/Henry-Pham-Chess)
 ```
