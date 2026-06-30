@@ -12,7 +12,7 @@
 
 [First episode of "Chess engine in Python"](https://www.youtube.com/playlist?list=PLBwF487qi8MGU81nDGaeNE1EnNEPYWKY_)
 
-# Henry's Chess
+# Henry's Chess Engine
 
 Henry Chess is a Python/Pygame desktop chess application created for the Year 12 Software Engineering Major Project. It includes local chess, rated AI bots, puzzles, premoves, Stockfish game review, themes, time controls, and executable support.
 
@@ -122,7 +122,7 @@ This project uses Python, Pygame and optional Stockfish integration. Stockfish i
 
 ## Developer
 
-Created by Henry for the Year 12 Software Engineering Major Project.
+Created by Henry Pham for the Year 12 Software Engineering Major Project.
 
 GitHub Repository:
 
