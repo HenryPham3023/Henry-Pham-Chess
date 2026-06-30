@@ -1,7 +1,5 @@
 # Henry Pham's SupremeChess Engine
 
-## Table of contents
-* [Game Features](#Features)
 
 [Eddie's YouTube channel](https://www.youtube.com/channel/UCaEohRz5bPHywGBwmR18Qww)
 
