@@ -12,23 +12,119 @@
 
 [First episode of "Chess engine in Python"](https://www.youtube.com/playlist?list=PLBwF487qi8MGU81nDGaeNE1EnNEPYWKY_)
 
-## Instructions
-1. Clone this repository 
-2. Run `python3 -m pip install -r ./requirements.txt`
-3. Run `python3 ChessMain.py`.
-4. Enjoy the game!
+# Henry Chess
 
-![PvP Chess Game with move logger](./assets/baord01.png)
+Henry Chess is a Python/Pygame desktop chess application created for the Year 12 Software Engineering Major Project. It includes local chess, rated AI bots, puzzles, premoves, Stockfish game review, themes, time controls, and executable support.
 
-#### Keys:
-* Press `z` to undo a move.
-* Press `r` to reset the game.
+## Features
 
-#### Notes: 
-* For now, the game runs with PvP mode enabled.
+* Local two-player chess
+* Rated AI bots
+* Practice bot mode
+* Puzzle training
+* Stockfish-powered game review
+* Move labels, accuracy and best-move feedback
+* Premove support
+* Graphical arrows and square highlights
+* Board and piece themes
+* Time controls
+* PGN/FEN import
+* Executable build support
 
-## Further development ideas
-1. Move ordering - look at checks, captures and threats first, prioritize castling/king safety, look at pawn moves last (this will improve alpha-beta pruning). Also start with moves that previously scored higher (will also improve pruning).
-2. Hash board positions already visited to improve computation time for transpositions, so that after a move is made the engine doesn't have to recalculate all the moves.
-3. Evaluating kings placement on the board (separate in middle game and in the late game).
-4. Book of openings.
+## How to Run from Source
+
+1. Download or clone the project.
+2. Open the project folder in VS Code.
+3. Install requirements:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+4. Run the game:
+
+```bash
+python ChessMain.py
+```
+
+On Mac, use:
+
+```bash
+python3 ChessMain.py
+```
+
+## Running the Executable
+
+Download the executable ZIP, extract it, then open:
+
+```text
+Henry Chess.exe
+```
+
+Do not remove the files from the extracted folder, because the game needs its assets, sounds, pieces and Stockfish files.
+
+## Stockfish Setup
+
+Stockfish is optional but recommended for stronger Game Review and higher-rated bots.
+
+Windows path:
+
+```text
+engines/stockfish/windows/stockfish.exe
+```
+
+Mac path:
+
+```text
+engines/stockfish/mac/stockfish
+```
+
+The file name must be exactly `stockfish.exe` on Windows or `stockfish` on Mac.
+
+## Controls
+
+| Action           | Control                |
+| ---------------- | ---------------------- |
+| Select piece     | Left click             |
+| Move piece       | Left click destination |
+| Draw arrow       | Right click drag       |
+| Highlight square | Right click            |
+| Premove          | Use the Premove button |
+| Change theme     | Board / Pieces buttons |
+| Review game      | Game Review button     |
+
+## Project Structure
+
+```text
+ChessMain.py          Main app and interface
+ChessEngine.py       Chess rules and legal moves
+SmartMoveFinder.py   AI and bot logic
+stockfish_review.py  Stockfish game review
+game_io.py           PGN/FEN and file handling
+assets/              Images and sounds
+engines/             Stockfish files
+docs/                Documentation
+tests/               Unit tests
+```
+
+## Testing
+
+Run:
+
+```bash
+pytest -q
+```
+
+## Acknowledgements
+
+This project uses Python, Pygame and optional Stockfish integration. Stockfish is third-party open-source software used for game analysis and stronger bot play.
+
+## Developer
+
+Created by Henry for the Year 12 Software Engineering Major Project.
+
+GitHub Repository:
+
+```text
+PASTE YOUR GITHUB LINK HERE
+```
