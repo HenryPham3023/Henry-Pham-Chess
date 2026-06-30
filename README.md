@@ -1,6 +1,6 @@
 # Henry Pham's Chess Engine
 
-
+# Credits to:
 [Eddie's YouTube channel](https://www.youtube.com/channel/UCaEohRz5bPHywGBwmR18Qww)
 
 [First episode of "Chess engine in Python"](https://www.youtube.com/playlist?list=PLBwF487qi8MGU81nDGaeNE1EnNEPYWKY_)
