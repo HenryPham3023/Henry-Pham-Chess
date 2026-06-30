@@ -55,11 +55,12 @@ python3 ChessMain.py
 
 ## Running the Executable
 
-Download the executable ZIP, extract it, then open:
+1. Download the ZIP file.
+2. Extract the ZIP file.
+3. Open the extracted `Henry Chess` folder.
+4. Double-click `Henry Chess.exe`.
 
-```text
-Henry Chess.exe
-```
+Do not remove the `.exe` from its folder, because the app needs the included assets, sounds, images and Stockfish files to run properly.
 
 Do not remove the files from the extracted folder, because the game needs its assets, sounds, pieces and Stockfish files.
 
@@ -126,5 +127,5 @@ Created by Henry for the Year 12 Software Engineering Major Project.
 GitHub Repository:
 
 ```text
-(https://github.com/HenryPham3023/Henry-Pham-Chess)
+https://github.com/HenryPham3023/Henry-Pham-Chess
 ```
